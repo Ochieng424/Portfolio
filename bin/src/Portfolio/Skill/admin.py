@@ -1,3 +1,9 @@
 from django.contrib import admin
+from .models import MySkill
 
-# Register your models here.
+
+class SkillAdmin(admin.ModelAdmin):
+    list_display = ('title', 'rating', 'datestamp')
+
+
+admin.site.register(MySkill, SkillAdmin)

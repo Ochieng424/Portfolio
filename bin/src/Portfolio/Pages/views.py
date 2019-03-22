@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.contrib import messages
 
 from About.models import About
-from Works.models import Work
+from Work.models import Work
 from Contact.form import ContactForm
 from Skill.models import MySkill
 
