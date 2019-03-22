@@ -133,5 +133,6 @@ include/
 /bin/activate.ps1
 /bin/python-config
 /bin/django-admin
-#!/bin/
-/bin/src/mysite/mysite/settings.py
+/bin/src/Portfolio/media/Curriculum_Vitae_NVv9Y2C.pdf
+/bin/src/Portfolio/media/image.jpg
+/bin/src/Portfolio/media/Screenshot_from_2019-03-22_20.34.51.png
