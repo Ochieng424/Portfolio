@@ -1,0 +1,175 @@
+#p-description{
+    color: rgba(255,255,255,.8);
+    font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+#home-div{
+    background-color: rgb(0,48,87);
+    height: auto;
+    border-top-right-radius: 12px;
+}
+
+#main-div{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 0;
+    margin-top: 50px;
+    border-top-right-radius: 14px;"
+}
+
+#icon-github{
+    font-size: 22px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+#icon-linkedin{
+    font-size: 22px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+#icon-twitter{
+    font-size: 22px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+#icon-link{
+    color: #003057;
+}
+
+#icon-link:hover{
+    color: #000e1e;
+}
+
+#btn-hire{
+    border-radius: 20px;
+    color: #0f0f0f;
+    background-color: #f4f6f9;
+    font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border: none;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 5px;
+    margin-top: 5px;
+}
+
+#btn-dwnResume{
+    border-radius: 20px;
+    color: #0f0f0f;
+    background-color: #f4f6f9;
+    font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border: none;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#project-div{
+    padding: 5px;
+    box-shadow: 0 14px 26px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-out;
+    background-color: white;
+    color: white;
+    border-bottom-right-radius: 12px;
+    margin-top: 15px;
+    height: auto;
+}
+
+#project-description{
+    font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 8px 0;
+    color: rgba(15, 15, 15, 0.74);
+}
+
+#project-title{
+    font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 15px;
+    color: #0f0f0f;
+}
+
+#contact-details-phone{
+    font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+
+#footer{
+    padding: 10px 0;
+    margin-top: 35px;
+    background-color: white;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    box-shadow: 8px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#skill-div{
+   /*background-color: white;*/
+    margin: 5px;
+    padding: 30px;
+    border-top-right-radius: 12px;"
+}
+
+#contact-panel{
+    margin: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#footer-made, #footer-powered {
+    font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+}
+
+#cognition{
+    color: rgba(0, 48, 87, 0.8);
+    text-decoration: none;
+}
+
+#cognition:hover{
+    color: #003057;
+}
+
+#icon-heart{
+    color: red;
+    font-size: 18px;
+}
+
+#icon-facebook{
+    font-size: 22px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: rgb(0, 48, 87);
+}
+
+#icon-facebook:hover{
+    color: #000e1e;
+}
+
+#icon-instagram{
+    font-size: 22px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: rgb(0, 48, 87);
+}
+
+#icon-instagram:hover{
+    color: #000e1e;
+}
+
+#social-title{
+    letter-spacing: 1px;
+    color: rgb(0, 48, 87);
+    font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

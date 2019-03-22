@@ -1,0 +1,114 @@
+body{
+    background-color: #f2f7fa;
+    margin: 0;
+    padding: 0;
+}
+
+#header-div{
+    padding: 12px;
+}
+
+#description{
+    padding: 20px 20px;
+}
+
+#foot-div{
+    padding: 15px;
+}
+
+.navbar{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    padding: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar .collapse ul li a {
+    color: #003057;
+    font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.navbar .collapse ul li a:hover {
+    color: #000000;
+}
+
+.navbar .navbar-header .navbar-brand{
+    font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
+    font-size: 20px;
+    color: #003057;
+}
+
+.navbar .navbar-header .navbar-toggle .icon-bar{
+    background-color: #0f0f0f;
+}
+
+#contact-details-email{
+    font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#contact-title{
+    font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#main-contact-div{
+    /*box-shadow: 0 14px 26px rgba(0, 0, 0, 0.04);*/
+    border-bottom: 0;
+}
+
+#btn-send{
+    width: 100%;
+    color: white;
+    background-color: rgba(15,48,87,.9);
+    padding: 12px;
+    font-weight: bold;
+    font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#btn-send:hover{
+    background-color: rgb(15,48,87);
+}
+
+#project-img{
+    margin: auto;
+    display: block;
+}
+
+.project-div{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#btn-source-code{
+    border-radius: 25px;
+    margin: 15px 0 15px 0;
+    background-color: white;
+    color: #0f3057;
+    border: 2px solid black;
+    font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#btn-live-demo{
+    border-radius: 25px;
+    margin: 15px 0 15px 0;
+    background-color: white;
+    color: #0f3057;
+    border: 2px solid black;
+    font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#skill-title{
+    font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+#btn-call{
+    background-color: #0f3057;
+    color: white;
+    font-weight: bold;
+    font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: 1px;
+
+}
