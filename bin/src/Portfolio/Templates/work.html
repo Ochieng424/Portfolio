@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block content %}
+<div class="container-fluid" style="margin-top: 100px; min-height: 480px;">
+    <div class="col-sm-10 col-sm-offset-1">
+        {% for work in object %}
+        <div class="row animated rotateIn" id="project-div" style="animation-duration: 3s;">
+            <div class="col-md-3">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <img src="{{work.image.url}}" id="project-img" class="img-responsive img-circle"
+                         style="width: 35px; margin: auto; display: block;">
+                    <h4 class="text-center" id="project-title">{{work.title|capfirst}}</h4>
+                </div>
+            </div>
+            <div class="col-md-5 col-sm-12 text-center" style="padding: 0 40px;">
+                <p id="project-description">{{work.description}}</p>
+            </div>
+            <div class="col-md-2 col-sm-12 text-center">
+                <a target="_blank" href="{{work.source_code_link}}">
+                    <button class="btn btn-sm btn-success" id="btn-source-code">
+                        <b style="letter-spacing: 1px;">
+                            Source Code
+                        </b>
+                    </button>
+                </a>
+            </div>
+            <div class="col-md-2 col-sm-12 text-center">
+                {% if work.live_project_link %}
+                <a target="_blank" href="{{work.live_project_link}}">
+                    <button class="btn btn-sm btn-success" id="btn-live-demo">
+                        <b style="letter-spacing: 1px;">
+                            Live Demo
+                        </b>
+                    </button>
+                </a>
+                {% endif %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block content %}
+<div class="container-fluid" style="margin-top: 100px; min-height: 460px;">
+    <div class="col-sm-10 col-sm-offset-1" id="main-div">
+        <div class="col-sm-12 text-center" id="home-div">
+                <div class="row" style="padding: 20px 10px;">
+                    {% for details in object %}
+                        {% if details.featured == True %}
+                    <div class="col-sm-4">
+                        <img src="{{details.image.url}}" class="img-circle"
+                             style="width: 180px;">
+                    </div>
+                    <div class="col-sm-5 text-center" id="description" style="padding: 20px 50px;">
+                        <h3 class="animated bounceInRight" style="color: white; letter-spacing: 1px; animation-duration: 3s;">{{details.title}}</h3>
+                        <p class="animated bounceInUp" id="p-description" style="animation-duration: 5s;">
+                            {{details.description}}
+                        </p>
+
+                        <div class="col-sm-12" id="header-div">
+                            <div class="text-center">
+                                <a href="mailto:ochieng.derrick001@gmail.com?subject = I%20WOULD%20LIKE%20TO%20HIRE%20YOU">
+                                    <button class="btn btn-primary btn-sm btn-white" id="btn-hire">
+                                        Hire Me
+                                    </button>
+                                </a>
+                                {% if details.resume.url %}
+                                <a href="{{details.resume.url}}">
+                                    <button class="btn btn-primary btn-sm btn-white" id="btn-dwnResume">
+                                        <i class="fa fa-download"></i> Resume
+                                    </button>
+                                </a>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3"></div>
+                </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+        <div class="col-sm-12 text-center" id="foot-div">
+            <a id="icon-link" target="_blank" href="https://github.com/Ochieng424">
+                <i class="fa fa-github-square" id="icon-github"></i>
+            </a>
+            <a id="icon-link" target="_blank" href="https://www.linkedin.com/in/derrick-ochieng-75a208118/">
+                <i class="fa fa-linkedin-square" id="icon-linkedin"></i>
+            </a>
+        </div>
+    </div>
+</div>
+{% endblock %}
