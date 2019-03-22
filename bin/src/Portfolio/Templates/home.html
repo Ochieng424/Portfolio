@@ -11,10 +11,12 @@
                         {% if details.featured == True %}
                     <div class="col-sm-4">
                         <img src="{{details.image.url}}" class="img-circle"
-                             style="width: 180px;">
+                             style="width: 175px;">
                     </div>
                     <div class="col-sm-5 text-center" id="description" style="padding: 20px 50px;">
-                        <h3 class="animated bounceInRight" style="color: white; letter-spacing: 1px; animation-duration: 3s;">{{details.title}}</h3>
+                        <h3 class="animated bounceInRight" style="color: white; letter-spacing: 1px; animation-duration:3s;">
+                            {{details.title}}
+                        </h3>
                         <p class="animated bounceInUp" id="p-description" style="animation-duration: 4s;">
                             {{details.description}}
                         </p>
