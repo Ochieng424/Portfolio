@@ -8,7 +8,7 @@
         {% for work in object %}
         <div class="row animated rotateIn" id="project-div" style="animation-duration: 3s;">
             <div class="col-md-3">
-                <div class="col-sm-8 col-sm-offset-2">
+                <div class="col-sm-8 col-sm-offset-2" style="margin-top: 5px;">
                     <img src="{{work.image.url}}" id="project-img" class="img-responsive img-circle"
                          style="width: 35px; margin: auto; display: block;">
                     <h4 class="text-center" id="project-title">{{work.title|capfirst}}</h4>
