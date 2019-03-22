@@ -9,9 +9,9 @@
         <!--<h4 class="text-center" style="color: white; letter-spacing: 1px;"><b>My Skills</b></h4>-->
         <!--<hr>-->
         {% for skill in object %}
-        <div class="col-sm-3 col-xs-12 animated rotateIn" style=" padding: 10px 10px; animation-duration: 3s;">
-            <div class="well" style="padding: 10px; box-shadow: 0 14px 26px rgba(0, 0, 0, 0.4);">
-                <h5 id="skill-title" style="color: black; letter-spacing: 1px;"><b>{{skill.title|capfirst}}</b></h5>
+        <div class="col-sm-3 col-xs-12 animated zoomIn" style=" padding: 10px 10px; animation-duration: 3s;">
+            <div class="well" style="padding: 3px 15px; box-shadow: 0 14px 26px rgba(0, 0, 0, 0.4);">
+                <h6 id="skill-title" style="color: black; letter-spacing: 1px;"><b>{{skill.title|capfirst}}</b></h6>
             <div class="progress progress-striped active" style="background-color: white; border: 0.5px solid black;">
                 <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
                      style="width: {{skill.rating}}%; background-color: rgb(0,48,87);">
