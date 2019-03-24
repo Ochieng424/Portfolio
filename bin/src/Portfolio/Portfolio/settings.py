@@ -135,3 +135,4 @@ MEDIA_URL = '/media/'
 CRISPY_TEMPLATE_PACK = 'bootstrap3'
 
 django_heroku.settings(locals())
+del DATABASES['default']['OPTIONS']['sslmode']
