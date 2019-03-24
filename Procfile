@@ -1,0 +1,1 @@
+web: gunicorn --pythonpath bin/src/Portfolio Portfolio.wsgi
