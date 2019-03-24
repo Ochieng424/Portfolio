@@ -6,6 +6,7 @@ django-crispy-forms==1.7.2
 django-heroku==0.3.1
 gunicorn==19.9.0
 idna==2.8
+mysqlclient==1.4.2.post1
 Pillow==5.4.1
 psycopg2==2.7.7
 PyMySQL==0.9.3
