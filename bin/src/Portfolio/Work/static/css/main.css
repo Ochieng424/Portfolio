@@ -42,9 +42,9 @@ body{
     color: #003057;
 }
 
-/*.navbar .navbar-header .navbar-toggle .icon-bar{*/
-    /*background-color: #0f0f0f;*/
-/*}*/
+.navbar .navbar-header .navbar-toggle .icon-bar{
+    background-color: #0f0f0f;
+}
 
 #contact-details-email{
     font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
